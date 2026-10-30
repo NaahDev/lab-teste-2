@@ -34,7 +34,29 @@ Funcionalidades:
 - Demonstração de técnicas de furtividade.
 - Estudo do envio de informações por e-mail.
 
-## 4. Medidas de Defesa
+## 4. Integração do Keylogger com Telegram (Teste Educacional)
+
+Durante os testes em ambiente controlado, consegui realizar a integração entre o Keylogger Simulado e um bot do Telegram.
+
+O objetivo foi demonstrar, de forma educacional, como funciona a comunicação entre um script Python e uma API externa. Durante a execução, o programa realiza a captura de eventos de teclado autorizados no ambiente de teste e envia os registros para um chat do Telegram previamente configurado.
+
+### Configuração do Telegram
+
+Para reproduzir a integração em um ambiente próprio de estudos e autorizado, é necessário:
+
+1. Acessar o Telegram e conversar com o **@BotFather**.
+2. Criar um novo bot utilizando o comando `/newbot`.
+3. Copiar o token de acesso fornecido pelo Telegram.
+4. Iniciar uma conversa com o bot criado `/start`.
+5. Configurar o token e o `Chat ID` nas variáveis de ambiente do projeto.
+
+        Observações de segurança:
+
+        Este experimento foi desenvolvido exclusivamente para fins educacionais, com o objetivo de compreender a captura de eventos de teclado, a comunicação com APIs e os riscos relacionados a ferramentas de monitoramento.
+
+        **Importante:** qualquer teste deve ser realizado somente em dispositivos próprios ou com autorização expressa do responsável. A captura e o envio de informações de terceiros sem consentimento podem representar uma violação de privacidade e da legislação aplicável.
+
+## 5. Medidas de Defesa
 
 Algumas medidas importantes para prevenir ataques desse tipo são:
 
